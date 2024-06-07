@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100vh;
+    display: flex;
+    margin: auto;
+}
+.profile{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+   margin-left: 35px;
+}
+.left-side{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.right-side{
+    padding: 25px;
+    width: 40rem;
+    background-color: #e3e3e3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.interest{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+}
+.interest *{
+    display: block;
+}
+.line{
+    background-color: #d84242;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
